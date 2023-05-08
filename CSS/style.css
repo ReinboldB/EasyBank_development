@@ -1,0 +1,284 @@
+.title
+{
+    position: absolute;
+    width: 139px;
+    height: 20px;
+    left: 20px;
+    top: 20px;
+}
+.links
+{
+    position: absolute;
+    left: 530px;
+    margin-top: 20px;
+    top: 20px;
+    text-align: center;
+    word-spacing: 20px;
+    color: gray;
+}
+.button 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 32px;
+    gap: 10px;
+
+    position: absolute;
+    width: 174px;
+    height: 40px;
+    left: 1160px;
+    top: 30px;
+    background: linear-gradient(90.18deg, #31D35C 0.15%, #2BB7DA 99.85%);
+    border-radius: 9999px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+    border: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+}
+.desc
+{
+    position: absolute;
+    top: 150px;
+    font-size: 60px;
+    left: 100px;
+    font-weight: bold;
+}
+.desct
+{
+    position: absolute;
+    top: 340px;
+    font-size: 15px;
+    left: 100px;
+}
+.button2
+{
+    /* state=normal */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 32px;
+    gap: 10px;
+
+    position: absolute;
+    width: 174px;
+    height: 43px;
+    left: 100px;
+    top: 420px;
+
+    /* Gradient */
+    background: linear-gradient(90.18deg, #31D35C 0.15%, #2BB7DA 99.85%);
+    box-shadow: 0px 0px 16px rgba(51, 211, 94, 0.5);
+    border-radius: 9999px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    transition: opacity 0.15s;
+}
+.button2:hover
+{
+    opacity: 0.9;
+}
+.image
+{
+    position: absolute;
+    top:100px;
+    left: 700px;
+    height: 700px;
+}
+.desc2
+{
+    position: absolute;
+    top: 800px;
+    font-size: 30px;
+    left: 100px;
+    font-weight: bold;
+}
+.desct2
+{
+    position: absolute;
+    top: 870px;
+    font-size: 15px;
+    left: 100px;
+    font-size: 15px;
+}
+.buttons3
+{
+    position: absolute;
+    top: 970px;
+    left: 100px;
+    word-spacing: 275px;
+}
+.why1
+{
+    word-spacing: 2px;
+}
+.why2
+{
+    word-spacing: 2px;
+    position: absolute;
+    top: 22px;
+    left: 300px;
+}
+.why3
+{
+    word-spacing: 2px;
+    position: absolute;
+    top: 22px;
+    left: 600px;
+}
+.why4
+{
+    word-spacing: 2px;
+    position: absolute;
+    top: 22px;
+    left: 900px;
+    overflow: hidden;
+    width: 300px;
+}
+.meiofim
+{
+    position: absolute;
+    top: 1200px;
+    left: 100px;
+    font-size: 30px;
+    box-sizing: border-box;
+    padding-bottom: 400px;
+}
+.foto1
+{
+    width: 500px; 
+    height: 150px; 
+    object-fit: cover;
+    object-position: 50% 50%; 
+    padding-left: 150pxpx;
+    border-radius: 10px;
+}
+.foto2
+{
+    width: 500px; 
+    height: 150px; 
+    object-fit: cover;
+    object-position: 50% 50%; 
+    border-radius: 10px;
+}
+.fotos
+{
+    padding-left: 75px;
+}
+.less
+{
+    position: absolute;
+    left: 30px;
+    top: 175px;
+}
+.great
+{
+    position: absolute;
+    top: 175px;
+    left: 1110px;
+}
+.noticias1
+{
+    float: left;
+    position: absolute;
+    left: 75px;
+    padding-bottom: 0px;
+}
+.noticiast
+{
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.noticias2
+{
+    float: left;
+    position: absolute;
+    left: 580px;
+    
+}
+.noticiast2
+{
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.t1
+{
+    padding-top: 0px;
+    font-size: 20px;
+    margin: 0px;
+    color: gray;
+}
+.t2
+{
+    padding-top: 0px;
+    font-size: 20px;
+    margin: 0px;
+    color: gray;
+}
+.author
+{
+    margin: 0px;
+    color: gray;
+}
+.fim
+{
+    position: absolute;
+    background-color: #2D314E;
+    padding-left: 1365px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    box-sizing: border-box;
+    top: 1800px;
+    border: 0px;
+    left: 0px;
+}
+.social
+{
+    position: absolute;
+    top: 110px;
+    left: 50px;
+    word-spacing: 10px;
+}
+.links2
+{
+    color: white;
+    position: absolute;
+    left: 400px;
+    top: 40px;
+    width: 60px;
+}
+.links3
+{
+    color: white;
+    position: absolute;
+    left: 700px;
+    top: 40px;
+    width: 90px;
+}
+.logo
+{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+.botao
+{
+    position: absolute;
+    left: 1050px;
+    top: 50px;
+
+}
+.text
+{
+    color: white;
+}
