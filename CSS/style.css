@@ -42,6 +42,41 @@ a
     word-spacing: 20px;
     color: gray;
 }
+.linkhome:hover
+{
+    color: black;
+    text-decoration: underline 3px ;
+    text-decoration-color: #31D35C;
+    text-underline-position: under;
+}
+.linkabout:hover
+{
+    color: black;
+    text-decoration: underline 3px ;
+    text-decoration-color: #31D35C;
+    text-underline-position: under;
+}
+.linkcontact:hover
+{
+    color: black;
+    text-decoration: underline 3px ;
+    text-decoration-color: #31D35C;
+    text-underline-position: under;
+}
+.linkblog:hover
+{
+    color: black;
+    text-decoration: underline 3px ;
+    text-decoration-color: #31D35C;
+    text-underline-position: under;
+}
+.linkcareers:hover
+{
+    color: black;
+    text-decoration: underline 3px ;
+    text-decoration-color: #31D35C;
+    text-underline-position: under;
+}
 .button 
 {
     position: absolute;
@@ -130,34 +165,45 @@ a
 .buttons3
 {
     position: absolute;
-    top: 970px;
-    left: 100px;
     word-spacing: 275px;
+}
+.linkwhy
+{
+    color: black;
+}
+.bwhy
+{
+    width: 50px;
+    margin-bottom: 10px;
 }
 .why1
 {
     word-spacing: 2px;
+    position: absolute;
+    top: 970px;
+    left: 100px;
+
 }
 .why2
 {
     word-spacing: 2px;
     position: absolute;
-    top: 22px;
-    left: 300px;
+    top: 970px;
+    left: 400px;
 }
 .why3
 {
     word-spacing: 2px;
     position: absolute;
-    top: 22px;
-    left: 600px;
+    top: 970px;
+    left: 700px;
 }
 .why4
 {
     word-spacing: 2px;
     position: absolute;
-    top: 22px;
-    left: 900px;
+    top: 970px;
+    left: 1000px;
     overflow: hidden;
     width: 300px;
 }
@@ -221,6 +267,7 @@ a
     position: absolute;
     left: 75px;
     padding-bottom: 0px;
+    top: 280px;
 }
 .noticiast
 {
@@ -233,6 +280,7 @@ a
     float: left;
     position: absolute;
     left: 580px;
+    top: 280px;
     
 }
 .noticiast2
@@ -286,6 +334,30 @@ a
     left: 400px;
     top: 40px;
     width: 200px;
+}
+.linkau:hover
+{
+    color: #31D35C;
+}
+.linkcon:hover
+{
+    color: #31D35C;
+}
+.linkb:hover
+{
+    color: #31D35C;
+}
+.linkca:hover
+{
+    color: #31D35C;
+}
+.linksup:hover
+{
+    color: #31D35C;
+}
+.linkpri:hover
+{ 
+    color: #31D35C;
 }
 .links3
 {
