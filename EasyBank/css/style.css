@@ -88,7 +88,7 @@ header a.botao {
     background-color: #FDFDFD;
 }
 
- #home div{
+#home div{
     display: flex;
    flex-direction: column;
     justify-content: center;
@@ -99,7 +99,7 @@ header a.botao {
 
 }
 
- #home h1{
+#home h1{
     font-size: 54px;
     font-weight: lighter;
     color: #2D314E;
@@ -110,7 +110,10 @@ header a.botao {
     font-weight: thin;
     color: #D8D8D8;
 }
-
+#home img {
+    padding-right: -50px;
+    overflow: hidden;
+}
 
 
 section{
@@ -152,6 +155,7 @@ section{
     align-items: center;
     display: flex;
     padding: 128px;
+    padding-bottom: 60px;
     padding-top: 0;
 }
 
@@ -198,7 +202,6 @@ section{
     flex-direction: column;
     align-items: center;
     width: 100%;
-
 }
 #news .article_wrapper div{
     width: 100%;
@@ -250,6 +253,7 @@ footer {
     gap: 128px;
     text-decoration: none;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 #news div a.request{
@@ -317,6 +321,74 @@ footer a.requests{
 
 }
 
+footer div p{
+    color: #F4F5F7;
+    margin-top: 20px;
+}
 
-
-
+html,.box{
+    width: 100%;
+    height: 100%;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: background 0.4s ease-in;
+}
+.container img {
+    width: 600px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    max-height:600px;
+    transform-style:preserve-3d;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.box .container input {
+   display: none;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    height: 70%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+.cards {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* margin-bottom: 20px; */
+}
+#item-1:checked ~ .cards #song-3,
+#item-2:checked ~ .cards #song-1,
+#item-3:checked ~ .cards #song-2{
+    transform: translateX(40%) scale(0.8);
+    opacity: 0.7;
+    z-index: 0;
+}
+#item-1:checked ~ .cards #song-2,
+#item-2:checked ~ .cards #song-3,
+#item-3:checked ~ .cards #song-1{
+    transform: translateX(-40%) scale(0.8);
+    opacity: 0.7;
+    z-index: 0;
+}
+#item-1:checked ~ .cards #song-1,
+#item-2:checked ~ .cards #song-2,
+#item-3:checked ~ .cards #song-3{
+    transform: translateX(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+}
